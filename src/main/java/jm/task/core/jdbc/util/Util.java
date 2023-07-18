@@ -8,8 +8,8 @@ public class Util {
     // реализуйте настройку соеденения с БД
     private static final String DB_DRIVER = "com.mysql.cj.jdbc.Driver";
     private static final String DB_URL = "jdbc:mysql://localhost:3306/test01";
-    private static final String DB_USER = "user1";
-    private static final String DB_PASSWORD = "fgh123456";
+    private static final String DB_USER = "";
+    private static final String DB_PASSWORD = "";
 
     public Connection establishConnection() {
         Connection connection = null;
