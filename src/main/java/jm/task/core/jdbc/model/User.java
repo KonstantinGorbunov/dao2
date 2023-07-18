@@ -22,7 +22,19 @@ public class User {
 
     }
 
+    @Override
+    public String toString() {
+        return String.format("Name: %s Lastname: %s age: %d", name, lastName, age);
+    }
+
     public User(String name, String lastName, Byte age) {
+        this.name = name;
+        this.lastName = lastName;
+        this.age = age;
+    }
+
+    public User(Long id, String name, String lastName, Byte age) {
+        this.id = id;
         this.name = name;
         this.lastName = lastName;
         this.age = age;
